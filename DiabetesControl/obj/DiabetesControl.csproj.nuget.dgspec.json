@@ -1,28 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Buket\\DiabetesControl\\DiabetesControl\\DiabetesControl.csproj": {}
+    "D:\\Buket\\Diabetes\\DiabetesControl\\DiabetesControl.csproj": {}
   },
   "projects": {
-    "D:\\Buket\\DiabetesControl\\DiabetesControl\\DiabetesControl.csproj": {
+    "D:\\Buket\\Diabetes\\DiabetesControl\\DiabetesControl.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Buket\\DiabetesControl\\DiabetesControl\\DiabetesControl.csproj",
+        "projectUniqueName": "D:\\Buket\\Diabetes\\DiabetesControl\\DiabetesControl.csproj",
         "projectName": "DiabetesControl",
-        "projectPath": "D:\\Buket\\DiabetesControl\\DiabetesControl\\DiabetesControl.csproj",
+        "projectPath": "D:\\Buket\\Diabetes\\DiabetesControl\\DiabetesControl.csproj",
         "packagesPath": "C:\\Users\\P1494\\.nuget\\packages\\",
-        "outputPath": "D:\\Buket\\DiabetesControl\\DiabetesControl\\obj\\",
+        "outputPath": "D:\\Buket\\Diabetes\\DiabetesControl\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\P1494\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -63,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

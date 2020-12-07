@@ -1,0 +1,9 @@
+D:\Buket\Diabetes\DiabetesControl.Library\bin\Debug\netcoreapp3.1\DiabetesControl.Library.deps.json
+D:\Buket\Diabetes\DiabetesControl.Library\bin\Debug\netcoreapp3.1\DiabetesControl.Library.dll
+D:\Buket\Diabetes\DiabetesControl.Library\obj\Debug\netcoreapp3.1\DiabetesControl.Library.csprojAssemblyReference.cache
+D:\Buket\Diabetes\DiabetesControl.Library\obj\Debug\netcoreapp3.1\DiabetesControl.Library.AssemblyInfoInputs.cache
+D:\Buket\Diabetes\DiabetesControl.Library\obj\Debug\netcoreapp3.1\DiabetesControl.Library.AssemblyInfo.cs
+D:\Buket\Diabetes\DiabetesControl.Library\bin\Debug\netcoreapp3.1\DiabetesControl.Library.pdb
+D:\Buket\Diabetes\DiabetesControl.Library\obj\Debug\netcoreapp3.1\DiabetesControl.Library.csproj.CoreCompileInputs.cache
+D:\Buket\Diabetes\DiabetesControl.Library\obj\Debug\netcoreapp3.1\DiabetesControl.Library.dll
+D:\Buket\Diabetes\DiabetesControl.Library\obj\Debug\netcoreapp3.1\DiabetesControl.Library.pdb

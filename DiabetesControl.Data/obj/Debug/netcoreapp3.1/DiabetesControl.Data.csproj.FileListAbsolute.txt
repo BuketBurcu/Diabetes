@@ -1,0 +1,12 @@
+D:\Buket\Diabetes\DiabetesControl.Data\bin\Debug\netcoreapp3.1\DiabetesControl.Data.deps.json
+D:\Buket\Diabetes\DiabetesControl.Data\bin\Debug\netcoreapp3.1\DiabetesControl.Data.dll
+D:\Buket\Diabetes\DiabetesControl.Data\bin\Debug\netcoreapp3.1\DiabetesControl.Data.pdb
+D:\Buket\Diabetes\DiabetesControl.Data\obj\Debug\netcoreapp3.1\DiabetesControl.Data.csprojAssemblyReference.cache
+D:\Buket\Diabetes\DiabetesControl.Data\obj\Debug\netcoreapp3.1\DiabetesControl.Data.AssemblyInfoInputs.cache
+D:\Buket\Diabetes\DiabetesControl.Data\obj\Debug\netcoreapp3.1\DiabetesControl.Data.AssemblyInfo.cs
+D:\Buket\Diabetes\DiabetesControl.Data\obj\Debug\netcoreapp3.1\DiabetesControl.Data.dll
+D:\Buket\Diabetes\DiabetesControl.Data\obj\Debug\netcoreapp3.1\DiabetesControl.Data.pdb
+D:\Buket\Diabetes\DiabetesControl.Data\bin\Debug\netcoreapp3.1\DiabetesControl.Library.dll
+D:\Buket\Diabetes\DiabetesControl.Data\bin\Debug\netcoreapp3.1\DiabetesControl.Library.pdb
+D:\Buket\Diabetes\DiabetesControl.Data\obj\Debug\netcoreapp3.1\DiabetesControl.Data.csproj.CoreCompileInputs.cache
+D:\Buket\Diabetes\DiabetesControl.Data\obj\Debug\netcoreapp3.1\DiabetesControl.Data.csproj.CopyComplete

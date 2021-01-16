@@ -9,6 +9,10 @@ namespace DiabetesControl.Data.Context
 {
     public class MasterContext : DbContext
     {
+        public MasterContext()
+        {
+
+        }
         public MasterContext(DbContextOptions<MasterContext> options) : base(options)
         {
 
@@ -17,17 +21,17 @@ namespace DiabetesControl.Data.Context
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseMySQL(SettingsManager.DatabaseSettings.GetConnectionString());
+                optionsBuilder. UseMySQL(SettingsManager.DatabaseSettings.GetConnectionString());
             }
             base.OnConfiguring(optionsBuilder);
 
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Food>().HasKey(x => new { x.Id });
-            modelBuilder.Entity<NutritionalMeasure>().HasKey(x => new { x.Id });
-            modelBuilder.Entity<NutritiveGroup>().HasKey(x => new { x.Id });
-            modelBuilder.Entity<NutritiveValue>().HasKey(x => new { x.Id });
+            //modelBuilder.Entity<Food>().HasKey(x => new { x.Id });
+            //modelBuilder.Entity<NutritionalMeasure>().HasKey(x => new { x.Id });
+            //modelBuilder.Entity<NutritiveGroup>().HasKey(x => new { x.Id });
+            //modelBuilder.Entity<NutritiveValue>().HasKey(x => new { x.Id });
 
             // modelBuilder.Entity<Food>().HasOne()
             base.OnModelCreating(modelBuilder);

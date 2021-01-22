@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Buket\\Diabetes\\DiabetesControl.Library\\DiabetesControl.Library.csproj": {}
+    "C:\\Buket\\Example\\Buket\\Diabetes\\DiabetesControl.Library\\DiabetesControl.Library.csproj": {}
   },
   "projects": {
-    "D:\\Buket\\Diabetes\\DiabetesControl.Library\\DiabetesControl.Library.csproj": {
+    "C:\\Buket\\Example\\Buket\\Diabetes\\DiabetesControl.Library\\DiabetesControl.Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Buket\\Diabetes\\DiabetesControl.Library\\DiabetesControl.Library.csproj",
+        "projectUniqueName": "C:\\Buket\\Example\\Buket\\Diabetes\\DiabetesControl.Library\\DiabetesControl.Library.csproj",
         "projectName": "DiabetesControl.Library",
-        "projectPath": "D:\\Buket\\Diabetes\\DiabetesControl.Library\\DiabetesControl.Library.csproj",
-        "packagesPath": "C:\\Users\\P1494\\.nuget\\packages\\",
-        "outputPath": "D:\\Buket\\Diabetes\\DiabetesControl.Library\\obj\\",
+        "projectPath": "C:\\Buket\\Example\\Buket\\Diabetes\\DiabetesControl.Library\\DiabetesControl.Library.csproj",
+        "packagesPath": "C:\\Users\\Buket Burcu Mercan\\.nuget\\packages\\",
+        "outputPath": "C:\\Buket\\Example\\Buket\\Diabetes\\DiabetesControl.Library\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\P1494\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Buket Burcu Mercan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,16 +38,13 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.1, )"
-            },
-            "MySql.Data.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.22, )"
+              "version": "[5.0.2, )"
             }
           },
           "imports": [
@@ -64,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

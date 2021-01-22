@@ -8,4 +8,5 @@ D:\Buket\Diabetes\DiabetesControl.Library\obj\Debug\netcoreapp3.1\DiabetesContro
 D:\Buket\Diabetes\DiabetesControl.Library\obj\Debug\netcoreapp3.1\DiabetesControl.Library.pdb
 D:\Buket\Diabetes\DiabetesControl.Library\bin\Debug\netcoreapp3.1\DiabetesControl.Library.runtimeconfig.json
 D:\Buket\Diabetes\DiabetesControl.Library\bin\Debug\netcoreapp3.1\DiabetesControl.Library.runtimeconfig.dev.json
+D:\Buket\Diabetes\DiabetesControl.Library\obj\Debug\netcoreapp3.1\DiabetesControl.Library.csproj.CoreCompileInputs.cache
 D:\Buket\Diabetes\DiabetesControl.Library\obj\Debug\netcoreapp3.1\DiabetesControl.Library.genruntimeconfig.cache

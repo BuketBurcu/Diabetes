@@ -21,7 +21,7 @@ namespace DiabetesControl.Data.Context
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder. UseMySQL(SettingsManager.DatabaseSettings.GetConnectionString());
+                optionsBuilder.UseMySql(new MySqlServerVersion(new Version(8, 0, 22)), SettingsManager.DatabaseSettings.GetConnectionString());
             }
             base.OnConfiguring(optionsBuilder);
 

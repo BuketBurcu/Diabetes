@@ -8,5 +8,5 @@ D:\Buket\Diabetes\DiabetesControl.Data\obj\Debug\netcoreapp3.1\DiabetesControl.D
 D:\Buket\Diabetes\DiabetesControl.Data\obj\Debug\netcoreapp3.1\DiabetesControl.Data.pdb
 D:\Buket\Diabetes\DiabetesControl.Data\bin\Debug\netcoreapp3.1\DiabetesControl.Library.dll
 D:\Buket\Diabetes\DiabetesControl.Data\bin\Debug\netcoreapp3.1\DiabetesControl.Library.pdb
-D:\Buket\Diabetes\DiabetesControl.Data\obj\Debug\netcoreapp3.1\DiabetesControl.Data.csproj.CoreCompileInputs.cache
 D:\Buket\Diabetes\DiabetesControl.Data\obj\Debug\netcoreapp3.1\DiabetesControl.Data.csproj.CopyComplete
+D:\Buket\Diabetes\DiabetesControl.Data\obj\Debug\netcoreapp3.1\DiabetesControl.Data.csproj.CoreCompileInputs.cache

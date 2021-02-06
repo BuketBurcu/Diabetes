@@ -1,5 +1,6 @@
 ﻿using DiabetesControl.Data.Models;
 using DiabetesControl.Data.Models.SettingManager;
+using DiabetesControl.Utils.Logger;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -17,14 +18,25 @@ namespace DiabetesControl.Data.Context
         {
 
         }
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    if (!optionsBuilder.IsConfigured)
+        //    {
+        //        optionsBuilder.UseMySql(new MySqlServerVersion(new Version(8, 0, 22)), SettingsManager.DatabaseSettings.GetConnectionString());
+        //    }
+        //    base.OnConfiguring(optionsBuilder);
+
+        //}
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseMySql(new MySqlServerVersion(new Version(8, 0, 22)), SettingsManager.DatabaseSettings.GetConnectionString());
+                optionsBuilder.UseMySql(Environment.GetEnvironmentVariable("MYSQL_URI"),
+                    ServerVersion.AutoDetect(Environment.GetEnvironmentVariable("MYSQL_URI")));
+                ElasticLogger.Instance.Info("Connetion");
             }
             base.OnConfiguring(optionsBuilder);
-
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

@@ -10,3 +10,15 @@ D:\Buket\Diabetes\DiabetesControl.Library\bin\Debug\netcoreapp3.1\DiabetesContro
 D:\Buket\Diabetes\DiabetesControl.Library\bin\Debug\netcoreapp3.1\DiabetesControl.Library.runtimeconfig.dev.json
 D:\Buket\Diabetes\DiabetesControl.Library\obj\Debug\netcoreapp3.1\DiabetesControl.Library.csproj.CoreCompileInputs.cache
 D:\Buket\Diabetes\DiabetesControl.Library\obj\Debug\netcoreapp3.1\DiabetesControl.Library.genruntimeconfig.cache
+C:\Buket\Example\Buket\Diabetes\DiabetesControl.Library\bin\Debug\netcoreapp3.1\DiabetesControl.Library.deps.json
+C:\Buket\Example\Buket\Diabetes\DiabetesControl.Library\bin\Debug\netcoreapp3.1\DiabetesControl.Library.runtimeconfig.json
+C:\Buket\Example\Buket\Diabetes\DiabetesControl.Library\bin\Debug\netcoreapp3.1\DiabetesControl.Library.runtimeconfig.dev.json
+C:\Buket\Example\Buket\Diabetes\DiabetesControl.Library\bin\Debug\netcoreapp3.1\DiabetesControl.Library.dll
+C:\Buket\Example\Buket\Diabetes\DiabetesControl.Library\bin\Debug\netcoreapp3.1\DiabetesControl.Library.pdb
+C:\Buket\Example\Buket\Diabetes\DiabetesControl.Library\obj\Debug\netcoreapp3.1\DiabetesControl.Library.csprojAssemblyReference.cache
+C:\Buket\Example\Buket\Diabetes\DiabetesControl.Library\obj\Debug\netcoreapp3.1\DiabetesControl.Library.AssemblyInfoInputs.cache
+C:\Buket\Example\Buket\Diabetes\DiabetesControl.Library\obj\Debug\netcoreapp3.1\DiabetesControl.Library.AssemblyInfo.cs
+C:\Buket\Example\Buket\Diabetes\DiabetesControl.Library\obj\Debug\netcoreapp3.1\DiabetesControl.Library.csproj.CoreCompileInputs.cache
+C:\Buket\Example\Buket\Diabetes\DiabetesControl.Library\obj\Debug\netcoreapp3.1\DiabetesControl.Library.dll
+C:\Buket\Example\Buket\Diabetes\DiabetesControl.Library\obj\Debug\netcoreapp3.1\DiabetesControl.Library.pdb
+C:\Buket\Example\Buket\Diabetes\DiabetesControl.Library\obj\Debug\netcoreapp3.1\DiabetesControl.Library.genruntimeconfig.cache

@@ -1,0 +1,21 @@
+version: '3.3'
+services:
+  mysql:
+      image: mysql:5.7
+      environment:
+        MYSQL_DATABASE: 'root'
+        MYSQL_ROOT_PASSWORD: 'root'
+      command: ['mysqld', '--character-set-server=utf8', '--collation-server=utf8_turkish_ci', '--max_connections=650']
+      ports:
+        - '1001:3306'
+      expose:
+          - '3306'
+      volumes:
+          - mysql-volume:/var/lib/mysql
+      deploy:
+        resources:
+          limits:
+            cpus: '2'
+            memory: '3096m'
+volumes:
+ mysql-volume:

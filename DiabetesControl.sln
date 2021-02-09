@@ -13,15 +13,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utils", "Utils", "{45BE62F1-3B48-4EA3-BD9D-EBFD5DA35B7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiabetesControl.Data", "DiabetesControl.Data\DiabetesControl.Data.csproj", "{B8C85A0B-B17F-4A1E-AAE9-0FA97F98AF55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiabetesControl.Data", "DiabetesControl.Data\DiabetesControl.Data.csproj", "{B8C85A0B-B17F-4A1E-AAE9-0FA97F98AF55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiabetesControl.DataAccess", "DiabetesControl.DataAccess\DiabetesControl.DataAccess.csproj", "{F0265C3E-2FFB-4C5C-A667-99656FBD84DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiabetesControl.DataAccess", "DiabetesControl.DataAccess\DiabetesControl.DataAccess.csproj", "{F0265C3E-2FFB-4C5C-A667-99656FBD84DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiabetesControl.Utils", "DiabetesControl.Utils\DiabetesControl.Utils.csproj", "{1E3B4421-927B-4A8E-88ED-151BABB0073B}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{F14DBE91-5008-42A6-88B5-F17C827518BE}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiabetesControl.Library", "DiabetesControl.Library\DiabetesControl.Library.csproj", "{32BCF72C-0A78-4849-8D3B-50C72D4718FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiabetesControl.Utils", "DiabetesControl.Utils\DiabetesControl.Utils.csproj", "{1E3B4421-927B-4A8E-88ED-151BABB0073B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,10 +41,6 @@ Global
 		{1E3B4421-927B-4A8E-88ED-151BABB0073B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E3B4421-927B-4A8E-88ED-151BABB0073B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E3B4421-927B-4A8E-88ED-151BABB0073B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{32BCF72C-0A78-4849-8D3B-50C72D4718FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{32BCF72C-0A78-4849-8D3B-50C72D4718FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{32BCF72C-0A78-4849-8D3B-50C72D4718FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{32BCF72C-0A78-4849-8D3B-50C72D4718FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,7 +50,6 @@ Global
 		{B8C85A0B-B17F-4A1E-AAE9-0FA97F98AF55} = {75446F3A-4A31-4AD7-99B4-5D9A3943E982}
 		{F0265C3E-2FFB-4C5C-A667-99656FBD84DE} = {4BCE333D-736D-4CD1-8D5B-98A52CB4650B}
 		{1E3B4421-927B-4A8E-88ED-151BABB0073B} = {45BE62F1-3B48-4EA3-BD9D-EBFD5DA35B7E}
-		{32BCF72C-0A78-4849-8D3B-50C72D4718FE} = {F14DBE91-5008-42A6-88B5-F17C827518BE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0C68A25D-069D-43FD-B263-DA9970790B14}

@@ -19,8 +19,6 @@ C:\Buket\Example\Buket\Diabetes\DiabetesControl.Data\obj\Debug\netcoreapp3.1\Dia
 C:\Buket\Example\Buket\Diabetes\DiabetesControl.Data\bin\Debug\netcoreapp3.1\DiabetesControl.Data.deps.json
 C:\Buket\Example\Buket\Diabetes\DiabetesControl.Data\bin\Debug\netcoreapp3.1\DiabetesControl.Data.dll
 C:\Buket\Example\Buket\Diabetes\DiabetesControl.Data\bin\Debug\netcoreapp3.1\DiabetesControl.Data.pdb
-C:\Buket\Example\Buket\Diabetes\DiabetesControl.Data\bin\Debug\netcoreapp3.1\DiabetesControl.Library.dll
-C:\Buket\Example\Buket\Diabetes\DiabetesControl.Data\bin\Debug\netcoreapp3.1\DiabetesControl.Library.pdb
 C:\Buket\Example\Buket\Diabetes\DiabetesControl.Data\obj\Debug\netcoreapp3.1\DiabetesControl.Data.csproj.CopyComplete
 C:\Buket\Example\Buket\Diabetes\DiabetesControl.Data\bin\Debug\netcoreapp3.1\DiabetesControl.Data.runtimeconfig.json
 C:\Buket\Example\Buket\Diabetes\DiabetesControl.Data\bin\Debug\netcoreapp3.1\DiabetesControl.Data.runtimeconfig.dev.json

@@ -628,7 +628,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "DiabetesControl.Library": "1.0.0",
           "DiabetesControl.Utils": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.2",
           "Pomelo.EntityFrameworkCore.MySql": "5.0.0-alpha.2"
@@ -638,16 +637,6 @@
         },
         "runtime": {
           "bin/placeholder/DiabetesControl.Data.dll": {}
-        }
-      },
-      "DiabetesControl.Library/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/DiabetesControl.Library.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DiabetesControl.Library.dll": {}
         }
       },
       "DiabetesControl.Utils/1.0.0": {
@@ -2798,11 +2787,6 @@
       "type": "project",
       "path": "../DiabetesControl.Data/DiabetesControl.Data.csproj",
       "msbuildProject": "../DiabetesControl.Data/DiabetesControl.Data.csproj"
-    },
-    "DiabetesControl.Library/1.0.0": {
-      "type": "project",
-      "path": "../DiabetesControl.Library/DiabetesControl.Library.csproj",
-      "msbuildProject": "../DiabetesControl.Library/DiabetesControl.Library.csproj"
     },
     "DiabetesControl.Utils/1.0.0": {
       "type": "project",

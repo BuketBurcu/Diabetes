@@ -617,16 +617,6 @@
           "ref/netstandard1.2/System.Threading.Timer.dll": {}
         }
       },
-      "DiabetesControl.Library/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/DiabetesControl.Library.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DiabetesControl.Library.dll": {}
-        }
-      },
       "DiabetesControl.Utils/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -2708,11 +2698,6 @@
         "system.threading.timer.nuspec"
       ]
     },
-    "DiabetesControl.Library/1.0.0": {
-      "type": "project",
-      "path": "../DiabetesControl.Library/DiabetesControl.Library.csproj",
-      "msbuildProject": "../DiabetesControl.Library/DiabetesControl.Library.csproj"
-    },
     "DiabetesControl.Utils/1.0.0": {
       "type": "project",
       "path": "../DiabetesControl.Utils/DiabetesControl.Utils.csproj",
@@ -2721,7 +2706,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "DiabetesControl.Library >= 1.0.0",
       "DiabetesControl.Utils >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.2",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.2",
@@ -2755,9 +2739,6 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Buket\\Example\\Buket\\Diabetes\\DiabetesControl.Library\\DiabetesControl.Library.csproj": {
-              "projectPath": "C:\\Buket\\Example\\Buket\\Diabetes\\DiabetesControl.Library\\DiabetesControl.Library.csproj"
-            },
             "C:\\Buket\\Example\\Buket\\Diabetes\\DiabetesControl.Utils\\DiabetesControl.Utils.csproj": {
               "projectPath": "C:\\Buket\\Example\\Buket\\Diabetes\\DiabetesControl.Utils\\DiabetesControl.Utils.csproj"
             }

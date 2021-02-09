@@ -27,7 +27,7 @@
           "DiabetesControl.Data": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "5.0.2",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.9.10",
-          "DiabetesControl.Library.Reference": "1.0.0.0",
+          "DiabetesControl.Library": "1.0.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -838,7 +838,6 @@
       },
       "DiabetesControl.Data/1.0.0": {
         "dependencies": {
-          "DiabetesControl.Library": "1.0.0",
           "DiabetesControl.Utils": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.2",
           "Pomelo.EntityFrameworkCore.MySql": "5.0.0-alpha.2"
@@ -862,7 +861,7 @@
           "DiabetesControl.Utils.dll": {}
         }
       },
-      "DiabetesControl.Library.Reference/1.0.0.0": {
+      "DiabetesControl.Library/1.0.0.0": {
         "runtime": {
           "DiabetesControl.Library.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -2492,9 +2491,6 @@
           "WindowsBase.dll": {}
         },
         "compileOnly": true
-      },
-      "DiabetesControl.Library/1.0.0": {
-        "compileOnly": true
       }
     }
   },
@@ -2878,7 +2874,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "DiabetesControl.Library.Reference/1.0.0.0": {
+    "DiabetesControl.Library/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -4230,11 +4226,6 @@
     },
     "WindowsBase/4.0.0.0": {
       "type": "referenceassembly",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "DiabetesControl.Library/1.0.0": {
-      "type": "project",
       "serviceable": false,
       "sha512": ""
     }

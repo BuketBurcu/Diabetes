@@ -8,7 +8,6 @@
     ".NETCoreApp,Version=v3.1": {
       "DiabetesControl.Data/1.0.0": {
         "dependencies": {
-          "DiabetesControl.Library": "1.0.0",
           "DiabetesControl.Utils": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.2",
           "Microsoft.EntityFrameworkCore.Design": "5.0.2",
@@ -475,11 +474,6 @@
           "System.Runtime": "4.1.0"
         }
       },
-      "DiabetesControl.Library/1.0.0": {
-        "runtime": {
-          "DiabetesControl.Library.dll": {}
-        }
-      },
       "DiabetesControl.Utils/1.0.0": {
         "dependencies": {
           "Serilog": "2.10.0",
@@ -853,11 +847,6 @@
       "sha512": "sha512-saGfUV8uqVW6LeURiqxcGhZ24PzuRNaUBtbhVeuUAvky1naH395A/1nY0P2bWvrw/BreRtIB/EzTDkGBpqCwEw==",
       "path": "system.threading.timer/4.0.1",
       "hashPath": "system.threading.timer.4.0.1.nupkg.sha512"
-    },
-    "DiabetesControl.Library/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     },
     "DiabetesControl.Utils/1.0.0": {
       "type": "project",

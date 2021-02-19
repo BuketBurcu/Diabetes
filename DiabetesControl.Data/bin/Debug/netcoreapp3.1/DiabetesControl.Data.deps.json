@@ -192,6 +192,14 @@
       },
       "Microsoft.NETCore.Platforms/1.0.1": {},
       "Microsoft.NETCore.Targets/1.0.1": {},
+      "Microsoft.OpenApi/1.2.3": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "assemblyVersion": "1.2.3.0",
+            "fileVersion": "1.2.3.0"
+          }
+        }
+      },
       "MySqlConnector/1.1.0": {
         "runtime": {
           "lib/netcoreapp3.1/MySqlConnector.dll": {
@@ -288,6 +296,17 @@
           "lib/netstandard1.2/Serilog.Sinks.PeriodicBatching.dll": {
             "assemblyVersion": "2.0.0.0",
             "fileVersion": "2.1.1.0"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore.Swagger/6.0.2": {
+        "dependencies": {
+          "Microsoft.OpenApi": "1.2.3"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.dll": {
+            "assemblyVersion": "6.0.2.0",
+            "fileVersion": "6.0.2.0"
           }
         }
       },
@@ -477,7 +496,8 @@
       "DiabetesControl.Utils/1.0.0": {
         "dependencies": {
           "Serilog": "2.10.0",
-          "Serilog.Sinks.Elasticsearch": "8.4.1"
+          "Serilog.Sinks.Elasticsearch": "8.4.1",
+          "Swashbuckle.AspNetCore.Swagger": "6.0.2"
         },
         "runtime": {
           "DiabetesControl.Utils.dll": {}
@@ -624,6 +644,13 @@
       "path": "microsoft.netcore.targets/1.0.1",
       "hashPath": "microsoft.netcore.targets.1.0.1.nupkg.sha512"
     },
+    "Microsoft.OpenApi/1.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Nug3rO+7Kl5/SBAadzSMAVgqDlfGjJZ0GenQrLywJ84XGKO0uRqkunz5Wyl0SDwcR71bAATXvSdbdzPrYRYKGw==",
+      "path": "microsoft.openapi/1.2.3",
+      "hashPath": "microsoft.openapi.1.2.3.nupkg.sha512"
+    },
     "MySqlConnector/1.1.0": {
       "type": "package",
       "serviceable": true,
@@ -679,6 +706,13 @@
       "sha512": "sha512-L1iZtcEzQdEIYCPvhYJYB2RofPg+i1NhHJfS+DpXLyLSMS6OXebqaI1fxWhmJRIjD9D9BuXi23FkZTQDiP7cHw==",
       "path": "serilog.sinks.periodicbatching/2.1.1",
       "hashPath": "serilog.sinks.periodicbatching.2.1.1.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.Swagger/6.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-j0uRMYKrMJN3v/4DUqXBHot9jGwvSDa4Y3/yo37MjSaQGrov2nenHyXQWdIV97oFX8LEL44/1WW9AUHjBujZFA==",
+      "path": "swashbuckle.aspnetcore.swagger/6.0.2",
+      "hashPath": "swashbuckle.aspnetcore.swagger.6.0.2.nupkg.sha512"
     },
     "System.Buffers/4.5.0": {
       "type": "package",

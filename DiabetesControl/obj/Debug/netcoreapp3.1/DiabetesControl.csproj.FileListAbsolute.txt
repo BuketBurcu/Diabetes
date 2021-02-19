@@ -160,3 +160,9 @@ C:\Buket\Example\Buket\Diabetes\DiabetesControl\bin\Debug\netcoreapp3.1\Serilog.
 C:\Buket\Example\Buket\Diabetes\DiabetesControl\bin\Debug\netcoreapp3.1\Serilog.Sinks.PeriodicBatching.dll
 C:\Buket\Example\Buket\Diabetes\DiabetesControl\bin\Debug\netcoreapp3.1\DiabetesControl.Utils.dll
 C:\Buket\Example\Buket\Diabetes\DiabetesControl\bin\Debug\netcoreapp3.1\DiabetesControl.Utils.pdb
+C:\Buket\Example\Buket\Diabetes\DiabetesControl\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Buket\Example\Buket\Diabetes\DiabetesControl\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Buket\Example\Buket\Diabetes\DiabetesControl\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Buket\Example\Buket\Diabetes\DiabetesControl\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Buket\Example\Buket\Diabetes\DiabetesControl\obj\Debug\netcoreapp3.1\DiabetesControl.MvcApplicationPartsAssemblyInfo.cs
+C:\Buket\Example\Buket\Diabetes\DiabetesControl\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index1.cshtml.g.cs

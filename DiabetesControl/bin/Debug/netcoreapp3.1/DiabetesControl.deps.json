@@ -26,7 +26,9 @@
         "dependencies": {
           "DiabetesControl.Data": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "5.0.2",
+          "Microsoft.EntityFrameworkCore.Tools": "5.0.1",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.9.10",
+          "Swashbuckle.AspNetCore": "6.0.2",
           "DiabetesControl.Library": "1.0.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
@@ -392,6 +394,12 @@
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Relational.dll": {}
         }
       },
+      "Microsoft.EntityFrameworkCore.Tools/5.0.1": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "5.0.2"
+        }
+      },
+      "Microsoft.Extensions.ApiDescription.Server/3.0.0": {},
       "Microsoft.Extensions.Caching.Abstractions/5.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "5.0.0"
@@ -520,6 +528,17 @@
       },
       "Microsoft.NETCore.Platforms/1.0.1": {},
       "Microsoft.NETCore.Targets/1.0.1": {},
+      "Microsoft.OpenApi/1.2.3": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "assemblyVersion": "1.2.3.0",
+            "fileVersion": "1.2.3.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
+        }
+      },
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.9.10": {},
       "MySqlConnector/1.1.0": {
         "runtime": {
@@ -642,6 +661,53 @@
         },
         "compile": {
           "lib/netstandard1.2/Serilog.Sinks.PeriodicBatching.dll": {}
+        }
+      },
+      "Swashbuckle.AspNetCore/6.0.2": {
+        "dependencies": {
+          "Microsoft.Extensions.ApiDescription.Server": "3.0.0",
+          "Swashbuckle.AspNetCore.Swagger": "6.0.2",
+          "Swashbuckle.AspNetCore.SwaggerGen": "6.0.2",
+          "Swashbuckle.AspNetCore.SwaggerUI": "6.0.2"
+        }
+      },
+      "Swashbuckle.AspNetCore.Swagger/6.0.2": {
+        "dependencies": {
+          "Microsoft.OpenApi": "1.2.3"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.dll": {
+            "assemblyVersion": "6.0.2.0",
+            "fileVersion": "6.0.2.0"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.dll": {}
+        }
+      },
+      "Swashbuckle.AspNetCore.SwaggerGen/6.0.2": {
+        "dependencies": {
+          "Swashbuckle.AspNetCore.Swagger": "6.0.2"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
+            "assemblyVersion": "6.0.2.0",
+            "fileVersion": "6.0.2.0"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {}
+        }
+      },
+      "Swashbuckle.AspNetCore.SwaggerUI/6.0.2": {
+        "runtime": {
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+            "assemblyVersion": "6.0.2.0",
+            "fileVersion": "6.0.2.0"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
         }
       },
       "System.Buffers/4.5.0": {},
@@ -852,7 +918,8 @@
       "DiabetesControl.Utils/1.0.0": {
         "dependencies": {
           "Serilog": "2.10.0",
-          "Serilog.Sinks.Elasticsearch": "8.4.1"
+          "Serilog.Sinks.Elasticsearch": "8.4.1",
+          "Swashbuckle.AspNetCore.Swagger": "6.0.2"
         },
         "runtime": {
           "DiabetesControl.Utils.dll": {}
@@ -2556,6 +2623,20 @@
       "path": "microsoft.entityframeworkcore.relational/5.0.2",
       "hashPath": "microsoft.entityframeworkcore.relational.5.0.2.nupkg.sha512"
     },
+    "Microsoft.EntityFrameworkCore.Tools/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aWC8uiAHkuZzOOxQwqzUyqRMGCCcqjthIUsJVn9I601UkVhxmHwvB/oARO1xb0GBaCfJuCJglo2wkehBjegwRQ==",
+      "path": "microsoft.entityframeworkcore.tools/5.0.1",
+      "hashPath": "microsoft.entityframeworkcore.tools.5.0.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LH4OE/76F6sOCslif7+Xh3fS/wUUrE5ryeXAMcoCnuwOQGT5Smw0p57IgDh/pHgHaGz/e+AmEQb7pRgb++wt0w==",
+      "path": "microsoft.extensions.apidescription.server/3.0.0",
+      "hashPath": "microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512"
+    },
     "Microsoft.Extensions.Caching.Abstractions/5.0.0": {
       "type": "package",
       "serviceable": true,
@@ -2633,6 +2714,13 @@
       "path": "microsoft.netcore.targets/1.0.1",
       "hashPath": "microsoft.netcore.targets.1.0.1.nupkg.sha512"
     },
+    "Microsoft.OpenApi/1.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Nug3rO+7Kl5/SBAadzSMAVgqDlfGjJZ0GenQrLywJ84XGKO0uRqkunz5Wyl0SDwcR71bAATXvSdbdzPrYRYKGw==",
+      "path": "microsoft.openapi/1.2.3",
+      "hashPath": "microsoft.openapi.1.2.3.nupkg.sha512"
+    },
     "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.9.10": {
       "type": "package",
       "serviceable": true,
@@ -2695,6 +2783,34 @@
       "sha512": "sha512-L1iZtcEzQdEIYCPvhYJYB2RofPg+i1NhHJfS+DpXLyLSMS6OXebqaI1fxWhmJRIjD9D9BuXi23FkZTQDiP7cHw==",
       "path": "serilog.sinks.periodicbatching/2.1.1",
       "hashPath": "serilog.sinks.periodicbatching.2.1.1.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore/6.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TNPXYE2hbXJ4bnage9jls2bOWjj9B3iD6vh9sAFyyjnQB48B10+OIW/gMCwKbeX2G+M/V0KswLDYSr3mJECGPw==",
+      "path": "swashbuckle.aspnetcore/6.0.2",
+      "hashPath": "swashbuckle.aspnetcore.6.0.2.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.Swagger/6.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-j0uRMYKrMJN3v/4DUqXBHot9jGwvSDa4Y3/yo37MjSaQGrov2nenHyXQWdIV97oFX8LEL44/1WW9AUHjBujZFA==",
+      "path": "swashbuckle.aspnetcore.swagger/6.0.2",
+      "hashPath": "swashbuckle.aspnetcore.swagger.6.0.2.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.SwaggerGen/6.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ssPIP7Y9Ktc50vJB3ut3I06vBWEUWH5JgIJyzfJ9BTXEL5oTUbXtTq8qYj7yleZK8Nokj+N5LWGWMPWeR/S7jQ==",
+      "path": "swashbuckle.aspnetcore.swaggergen/6.0.2",
+      "hashPath": "swashbuckle.aspnetcore.swaggergen.6.0.2.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.SwaggerUI/6.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MPDxbnSXidRd7PTrGjrEm8L7DTLJj1wzWBZ9JwBP+uFyXPUge1Ktz1SbbFl69mLaFEJoxendcExRvbQV5lPSFA==",
+      "path": "swashbuckle.aspnetcore.swaggerui/6.0.2",
+      "hashPath": "swashbuckle.aspnetcore.swaggerui.6.0.2.nupkg.sha512"
     },
     "System.Buffers/4.5.0": {
       "type": "package",

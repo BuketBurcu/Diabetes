@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.OpenApi.Models;
 
 namespace DiabetesControl
 {
@@ -26,6 +27,20 @@ namespace DiabetesControl
         {
             services.AddControllersWithViews();
             //services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Latest);
+
+            services.AddSwaggerGen(c => c.SwaggerDoc("DiabetesExample", new OpenApiInfo()
+            {
+                Title = "Swagger on ASP.NET Core",
+                Version = "1.0.0",
+                Description = "Try Swagger on (ASP.NET Core 2.1)",
+                Contact = new OpenApiContact()
+                {
+                    Name = "Swagger Implementation Bora kasmer",
+                    //Url = "http://borakasmer.com",
+                    // Email = "bora@borakasmer.com"
+                },
+                //TermsOfService = "http://swagger.io/terms/"
+            }));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -47,6 +62,9 @@ namespace DiabetesControl
             app.UseRouting();
 
             app.UseAuthorization();
+            app.UseDeveloperExceptionPage();
+            app.UseSwagger();
+            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/CoreSwagger/swagger.json", "SwaggerExample"));
 
             app.UseEndpoints(endpoints =>
             {

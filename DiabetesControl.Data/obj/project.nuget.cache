@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "UVvGMEZfvFWyCa5yVjStGTjLZ85G7DvdzHBl9ulE7EFBCghQz7jaMHZeNPLM2uySc7tVd0AVez44mlNPSlnSDw==",
+  "dgSpecHash": "2Y/+iawg+4k096kQ97GUq1u/4iJI5uo3/We9znNDUuH46NTlqdrL1BLFIoe0dWaeeu7kh4UTduUe8gllSoJRrw==",
   "success": true,
   "projectFilePath": "C:\\Buket\\Example\\Buket\\Diabetes\\DiabetesControl.Data\\DiabetesControl.Data.csproj",
   "expectedPackageFiles": [
@@ -23,6 +23,7 @@
     "C:\\Users\\Buket Burcu Mercan\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\Buket Burcu Mercan\\.nuget\\packages\\microsoft.netcore.platforms\\1.0.1\\microsoft.netcore.platforms.1.0.1.nupkg.sha512",
     "C:\\Users\\Buket Burcu Mercan\\.nuget\\packages\\microsoft.netcore.targets\\1.0.1\\microsoft.netcore.targets.1.0.1.nupkg.sha512",
+    "C:\\Users\\Buket Burcu Mercan\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Buket Burcu Mercan\\.nuget\\packages\\mysqlconnector\\1.1.0\\mysqlconnector.1.1.0.nupkg.sha512",
     "C:\\Users\\Buket Burcu Mercan\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\5.0.0-alpha.2\\pomelo.entityframeworkcore.mysql.5.0.0-alpha.2.nupkg.sha512",
     "C:\\Users\\Buket Burcu Mercan\\.nuget\\packages\\serilog\\2.10.0\\serilog.2.10.0.nupkg.sha512",
@@ -31,6 +32,7 @@
     "C:\\Users\\Buket Burcu Mercan\\.nuget\\packages\\serilog.sinks.elasticsearch\\8.4.1\\serilog.sinks.elasticsearch.8.4.1.nupkg.sha512",
     "C:\\Users\\Buket Burcu Mercan\\.nuget\\packages\\serilog.sinks.file\\4.0.0\\serilog.sinks.file.4.0.0.nupkg.sha512",
     "C:\\Users\\Buket Burcu Mercan\\.nuget\\packages\\serilog.sinks.periodicbatching\\2.1.1\\serilog.sinks.periodicbatching.2.1.1.nupkg.sha512",
+    "C:\\Users\\Buket Burcu Mercan\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.0.2\\swashbuckle.aspnetcore.swagger.6.0.2.nupkg.sha512",
     "C:\\Users\\Buket Burcu Mercan\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\Buket Burcu Mercan\\.nuget\\packages\\system.collections\\4.0.11\\system.collections.4.0.11.nupkg.sha512",
     "C:\\Users\\Buket Burcu Mercan\\.nuget\\packages\\system.collections.concurrent\\4.0.12\\system.collections.concurrent.4.0.12.nupkg.sha512",

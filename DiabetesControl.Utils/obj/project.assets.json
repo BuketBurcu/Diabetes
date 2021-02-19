@@ -43,6 +43,15 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+      "Microsoft.OpenApi/1.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
+        }
+      },
       "Serilog/2.10.0": {
         "type": "package",
         "compile": {
@@ -127,6 +136,21 @@
         "runtime": {
           "lib/netstandard1.2/Serilog.Sinks.PeriodicBatching.dll": {}
         }
+      },
+      "Swashbuckle.AspNetCore.Swagger/6.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.OpenApi": "1.2.3"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "System.Buffers/4.5.0": {
         "type": "package",
@@ -517,6 +541,23 @@
         "runtime.json"
       ]
     },
+    "Microsoft.OpenApi/1.2.3": {
+      "sha512": "Nug3rO+7Kl5/SBAadzSMAVgqDlfGjJZ0GenQrLywJ84XGKO0uRqkunz5Wyl0SDwcR71bAATXvSdbdzPrYRYKGw==",
+      "type": "package",
+      "path": "microsoft.openapi/1.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net46/Microsoft.OpenApi.dll",
+        "lib/net46/Microsoft.OpenApi.pdb",
+        "lib/net46/Microsoft.OpenApi.xml",
+        "lib/netstandard2.0/Microsoft.OpenApi.dll",
+        "lib/netstandard2.0/Microsoft.OpenApi.pdb",
+        "lib/netstandard2.0/Microsoft.OpenApi.xml",
+        "microsoft.openapi.1.2.3.nupkg.sha512",
+        "microsoft.openapi.nuspec"
+      ]
+    },
     "Serilog/2.10.0": {
       "sha512": "+QX0hmf37a0/OZLxM3wL7V6/ADvC1XihXN4Kq/p6d8lCPfgkRdiuhbWlMaFjR9Av0dy5F0+MBeDmDdRZN/YwQA==",
       "type": "package",
@@ -618,6 +659,23 @@
         "lib/netstandard1.2/Serilog.Sinks.PeriodicBatching.xml",
         "serilog.sinks.periodicbatching.2.1.1.nupkg.sha512",
         "serilog.sinks.periodicbatching.nuspec"
+      ]
+    },
+    "Swashbuckle.AspNetCore.Swagger/6.0.2": {
+      "sha512": "j0uRMYKrMJN3v/4DUqXBHot9jGwvSDa4Y3/yo37MjSaQGrov2nenHyXQWdIV97oFX8LEL44/1WW9AUHjBujZFA==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore.swagger/6.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.pdb",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.xml",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.pdb",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.xml",
+        "swashbuckle.aspnetcore.swagger.6.0.2.nupkg.sha512",
+        "swashbuckle.aspnetcore.swagger.nuspec"
       ]
     },
     "System.Buffers/4.5.0": {
@@ -2024,7 +2082,8 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Serilog >= 2.10.0",
-      "Serilog.Sinks.Elasticsearch >= 8.4.1"
+      "Serilog.Sinks.Elasticsearch >= 8.4.1",
+      "Swashbuckle.AspNetCore.Swagger >= 6.0.2"
     ]
   },
   "packageFolders": {
@@ -2073,6 +2132,10 @@
           "Serilog.Sinks.Elasticsearch": {
             "target": "Package",
             "version": "[8.4.1, )"
+          },
+          "Swashbuckle.AspNetCore.Swagger": {
+            "target": "Package",
+            "version": "[6.0.2, )"
           }
         },
         "imports": [
@@ -2086,11 +2149,14 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

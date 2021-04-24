@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "DiabetesControl.Utils": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ELASTIC_URI": "Value",
+        "POD_NAME": "Value",
+        "LOG_INDEX_FORMAT": "Value"
+      }
+    }
+  }
+}

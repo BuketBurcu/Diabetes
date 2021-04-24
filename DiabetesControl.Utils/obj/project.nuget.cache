@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W7vfa3GxgVSrYoYFf4pF90UiygFDTTlahK3da4kGrVMWh2zLx9sgIKDrP4ZEkW5l0jyfmL8uNmiJMvalLSlzAw==",
+  "dgSpecHash": "j1YOfRAsW3aAmnarxzwY2DoeZ1L8ATK/zrPK0tAjx825qrUcJt92q/9keoqKL2bAJZQh5JgL7LWdqg/+mZ9AkA==",
   "success": true,
-  "projectFilePath": "D:\\Buket\\Diabetes\\DiabetesControl.Utils\\DiabetesControl.Utils.csproj",
+  "projectFilePath": "C:\\Buket\\Example\\Buket\\Diabetes\\DiabetesControl.Utils\\DiabetesControl.Utils.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -19,6 +19,9 @@
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {
+        "ELASTIC_URI": "http://127.0.0.1:9200/",
+        "MYSQL_URI": "server=localhost;port=3306;database=diabetes;user=root;password=root;Max Pool Size=200;Min Pool Size=10;Pooling=true; Allow User Variables=True;",
+        "LOG_INDEX_FORMAT": "serilog-{0:yyyy.MM.dd}",
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
       "applicationUrl": "https://localhost:5001;http://localhost:5000"
@@ -27,6 +30,9 @@
       "commandName": "Docker",
       "launchBrowser": true,
       "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "environmentVariables": {
+        "Key": "Value"
+      },
       "publishAllPorts": true,
       "useSSL": true
     }

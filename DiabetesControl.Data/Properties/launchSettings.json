@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "DiabetesControl.Data": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "MYSQL_URI": "server=localhost;port=3306;database=diabetes;user=root;password=root;Max Pool Size=200;Min Pool Size=10;Pooling=true",
+        "Key": "Value"
+      }
+    }
+  }
+}

@@ -13,11 +13,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utils", "Utils", "{45BE62F1-3B48-4EA3-BD9D-EBFD5DA35B7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiabetesControl.Data", "DiabetesControl.Data\DiabetesControl.Data.csproj", "{B8C85A0B-B17F-4A1E-AAE9-0FA97F98AF55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiabetesControl.Data", "DiabetesControl.Data\DiabetesControl.Data.csproj", "{B8C85A0B-B17F-4A1E-AAE9-0FA97F98AF55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiabetesControl.DataAccess", "DiabetesControl.DataAccess\DiabetesControl.DataAccess.csproj", "{F0265C3E-2FFB-4C5C-A667-99656FBD84DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiabetesControl.DataAccess", "DiabetesControl.DataAccess\DiabetesControl.DataAccess.csproj", "{F0265C3E-2FFB-4C5C-A667-99656FBD84DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiabetesControl.Utils", "DiabetesControl.Utils\DiabetesControl.Utils.csproj", "{1E3B4421-927B-4A8E-88ED-151BABB0073B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiabetesControl.Utils", "DiabetesControl.Utils\DiabetesControl.Utils.csproj", "{1E3B4421-927B-4A8E-88ED-151BABB0073B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

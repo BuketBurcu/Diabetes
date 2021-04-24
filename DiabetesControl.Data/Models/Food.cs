@@ -22,7 +22,6 @@ namespace DiabetesControl.Data.Models
         [ForeignKey("NutritionalMeasureId")]
         public int NutritionalMeasureId { get; set; }
         public NutritiveGroup NutritiveGroup { get; set; }
-        public NutritiveValue NutritiveValue { get; set; }
         public NutritionalMeasure NutritionalMeasure { get; set; }
     }
 }

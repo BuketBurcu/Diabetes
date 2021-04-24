@@ -13,6 +13,6 @@ namespace DiabetesControl.Data.Models
         public string CarbohdrateValue { get; set; }
         public string ProteinValue { get; set; }
         public string FatValue { get; set; }
-        public ICollection<Food> Foods { get; set; }
+        public Food Foods { get; set; }
     }
 }

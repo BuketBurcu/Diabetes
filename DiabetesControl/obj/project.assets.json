@@ -723,10 +723,7 @@
         },
         "runtime": {
           "bin/placeholder/DiabetesControl.Data.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       },
       "DiabetesControl.Utils/1.0.0": {
         "type": "project",
@@ -741,10 +738,7 @@
         },
         "runtime": {
           "bin/placeholder/DiabetesControl.Utils.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       }
     }
   },
@@ -3109,7 +3103,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

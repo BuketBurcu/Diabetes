@@ -36,11 +36,13 @@ namespace DiabetesControl.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("NutritionalMeasureId");
+                    b.HasIndex("NutritionalMeasureId")
+                        .IsUnique();
 
                     b.HasIndex("NutritiveGroupId");
 
-                    b.HasIndex("NutritiveValueId");
+                    b.HasIndex("NutritiveValueId")
+                        .IsUnique();
 
                     b.ToTable("Foods");
                 });
@@ -114,8 +116,8 @@ namespace DiabetesControl.Data.Migrations
             modelBuilder.Entity("DiabetesControl.Data.Models.Food", b =>
                 {
                     b.HasOne("DiabetesControl.Data.Models.NutritionalMeasure", "NutritionalMeasure")
-                        .WithMany("Foods")
-                        .HasForeignKey("NutritionalMeasureId")
+                        .WithOne("Foods")
+                        .HasForeignKey("DiabetesControl.Data.Models.Food", "NutritionalMeasureId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -125,17 +127,15 @@ namespace DiabetesControl.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("DiabetesControl.Data.Models.NutritiveValue", "NutritiveValue")
-                        .WithMany("Foods")
-                        .HasForeignKey("NutritiveValueId")
+                    b.HasOne("DiabetesControl.Data.Models.NutritiveValue", null)
+                        .WithOne("Foods")
+                        .HasForeignKey("DiabetesControl.Data.Models.Food", "NutritiveValueId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("NutritionalMeasure");
 
                     b.Navigation("NutritiveGroup");
-
-                    b.Navigation("NutritiveValue");
                 });
 
             modelBuilder.Entity("DiabetesControl.Data.Models.NutritionalMeasure", b =>

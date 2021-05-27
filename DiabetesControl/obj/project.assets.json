@@ -725,6 +725,20 @@
           "bin/placeholder/DiabetesControl.Data.dll": {}
         }
       },
+      "DiabetesControl.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "DiabetesControl.Data": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.2"
+        },
+        "compile": {
+          "bin/placeholder/DiabetesControl.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DiabetesControl.DataAccess.dll": {}
+        }
+      },
       "DiabetesControl.Utils/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -3006,6 +3020,11 @@
       "path": "../DiabetesControl.Data/DiabetesControl.Data.csproj",
       "msbuildProject": "../DiabetesControl.Data/DiabetesControl.Data.csproj"
     },
+    "DiabetesControl.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../DiabetesControl.DataAccess/DiabetesControl.DataAccess.csproj",
+      "msbuildProject": "../DiabetesControl.DataAccess/DiabetesControl.DataAccess.csproj"
+    },
     "DiabetesControl.Utils/1.0.0": {
       "type": "project",
       "path": "../DiabetesControl.Utils/DiabetesControl.Utils.csproj",
@@ -3015,6 +3034,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "DiabetesControl.Data >= 1.0.0",
+      "DiabetesControl.DataAccess >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.2",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.1",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.9.10",
@@ -3048,6 +3068,9 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
+            "C:\\Buket\\Example\\Buket\\Diabetes\\DiabetesControl.DataAccess\\DiabetesControl.DataAccess.csproj": {
+              "projectPath": "C:\\Buket\\Example\\Buket\\Diabetes\\DiabetesControl.DataAccess\\DiabetesControl.DataAccess.csproj"
+            },
             "C:\\Buket\\Example\\Buket\\Diabetes\\DiabetesControl.Data\\DiabetesControl.Data.csproj": {
               "projectPath": "C:\\Buket\\Example\\Buket\\Diabetes\\DiabetesControl.Data\\DiabetesControl.Data.csproj"
             }
@@ -3103,16 +3126,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Buket\\Example\\Buket\\Diabetes\\DiabetesControl\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

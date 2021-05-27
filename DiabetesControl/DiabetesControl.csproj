@@ -20,6 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DiabetesControl.DataAccess\DiabetesControl.DataAccess.csproj" />
     <ProjectReference Include="..\DiabetesControl.Data\DiabetesControl.Data.csproj" />
   </ItemGroup>
 

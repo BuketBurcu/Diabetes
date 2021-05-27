@@ -23,5 +23,6 @@ namespace DiabetesControl.Data.Models
         public int NutritionalMeasureId { get; set; }
         public NutritiveGroup NutritiveGroup { get; set; }
         public NutritionalMeasure NutritionalMeasure { get; set; }
+        public NutritiveValue NutritiveValue { get; set; }
     }
 }

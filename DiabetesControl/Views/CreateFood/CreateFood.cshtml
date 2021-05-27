@@ -1,0 +1,44 @@
+﻿@using DiabetesControl.Data.Models
+@model Food
+@{
+    ViewData["Title"] = "Create Food";
+}
+
+<h3>Food Create</h3>
+<div>
+    <form method="post" asp-action="Create">
+        <div>
+            Yiyecek Adı:
+            @Html.TextBoxFor(x => x.Name)
+        </div>
+        <div>
+            Servis Ölçüsü :
+            @Html.TextBoxFor(x => x.NutritionalMeasure.MeasureAverage)
+        </div>
+        <div>
+            Miktar (cc) :
+            @Html.TextBoxFor(x => x.NutritionalMeasure.Quantity)
+        </div>
+        <div>
+            Karbonhidrad (g) :
+            @Html.TextBoxFor(x => x.NutritiveValue.CarbohdrateValue)
+        </div>
+        <div>
+            @*ToDo: This should be a ComboBox *@
+            @*Besin Grubu :
+            @Html.DropDownList("Besin Grubu", new List<SelectListItem>
+{
+      new SelectListItem { Text = "Süt", Value = "0", Selected=true},
+      new SelectListItem { Text = "Et", Value = "1"},
+      new SelectListItem { Text = "Ekmek", Value = "2"},
+      new SelectListItem { Text = "Yağ", Value = "3"},
+      new SelectListItem { Text = "Meyve", Value = "4"},
+      new SelectListItem { Text = "Yemek", Value = "5"}
+}, "Select Department")*@
+        </div>
+        <div>
+            <input type="submit" value="Kaydet" class="btn btn-default" />
+        </div>
+
+    </form>
+</div>

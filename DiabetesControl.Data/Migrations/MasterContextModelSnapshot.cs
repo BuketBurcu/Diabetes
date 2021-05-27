@@ -70,23 +70,8 @@ namespace DiabetesControl.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<string>("BreadGroup")
-                        .HasColumnType("longtext CHARACTER SET utf8mb4");
-
-                    b.Property<string>("EatGroup")
-                        .HasColumnType("longtext CHARACTER SET utf8mb4");
-
-                    b.Property<string>("FatGroup")
-                        .HasColumnType("longtext CHARACTER SET utf8mb4");
-
-                    b.Property<string>("FruitGroup")
-                        .HasColumnType("longtext CHARACTER SET utf8mb4");
-
-                    b.Property<string>("MeatGroup")
-                        .HasColumnType("longtext CHARACTER SET utf8mb4");
-
-                    b.Property<string>("MilkGroup")
-                        .HasColumnType("longtext CHARACTER SET utf8mb4");
+                    b.Property<int>("NutritiveGroupName")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
@@ -127,7 +112,7 @@ namespace DiabetesControl.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("DiabetesControl.Data.Models.NutritiveValue", null)
+                    b.HasOne("DiabetesControl.Data.Models.NutritiveValue", "NutritiveValue")
                         .WithOne("Foods")
                         .HasForeignKey("DiabetesControl.Data.Models.Food", "NutritiveValueId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -136,6 +121,8 @@ namespace DiabetesControl.Data.Migrations
                     b.Navigation("NutritionalMeasure");
 
                     b.Navigation("NutritiveGroup");
+
+                    b.Navigation("NutritiveValue");
                 });
 
             modelBuilder.Entity("DiabetesControl.Data.Models.NutritionalMeasure", b =>

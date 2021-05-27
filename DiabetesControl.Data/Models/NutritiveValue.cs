@@ -5,6 +5,7 @@ using System.Text;
 
 namespace DiabetesControl.Data.Models
 {
+    //Besin Değerleri
     public class NutritiveValue
     {
         [Key]

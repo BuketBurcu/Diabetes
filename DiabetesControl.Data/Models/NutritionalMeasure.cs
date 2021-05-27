@@ -11,6 +11,7 @@ namespace DiabetesControl.Data.Models
         [Required]
         public int Id { get; set; }
         public string MeasureAverage { get; set; }
+        //Miktar
         public string Quantity { get; set; }
         public Food Foods { get; set; }
     }

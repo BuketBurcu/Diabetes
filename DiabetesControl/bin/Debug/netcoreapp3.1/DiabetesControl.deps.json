@@ -32,6 +32,7 @@
       "DiabetesControl/1.0.0": {
         "dependencies": {
           "DiabetesControl.Data": "1.0.0",
+          "DiabetesControl.DataAccess": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "5.0.2",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.1",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.9.10",
@@ -920,6 +921,18 @@
         },
         "compile": {
           "DiabetesControl.Data.dll": {}
+        }
+      },
+      "DiabetesControl.DataAccess/1.0.0": {
+        "dependencies": {
+          "DiabetesControl.Data": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.2"
+        },
+        "runtime": {
+          "DiabetesControl.DataAccess.dll": {}
+        },
+        "compile": {
+          "DiabetesControl.DataAccess.dll": {}
         }
       },
       "DiabetesControl.Utils/1.0.0": {
@@ -2988,6 +3001,11 @@
       "hashPath": "system.threading.timer.4.0.1.nupkg.sha512"
     },
     "DiabetesControl.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DiabetesControl.DataAccess/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

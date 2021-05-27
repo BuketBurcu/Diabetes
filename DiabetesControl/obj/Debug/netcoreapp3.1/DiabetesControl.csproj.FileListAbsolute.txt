@@ -166,3 +166,8 @@ C:\Buket\Example\Buket\Diabetes\DiabetesControl\bin\Debug\netcoreapp3.1\Swashbuc
 C:\Buket\Example\Buket\Diabetes\DiabetesControl\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Buket\Example\Buket\Diabetes\DiabetesControl\obj\Debug\netcoreapp3.1\DiabetesControl.MvcApplicationPartsAssemblyInfo.cs
 C:\Buket\Example\Buket\Diabetes\DiabetesControl\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index1.cshtml.g.cs
+C:\Buket\Example\Buket\Diabetes\DiabetesControl\obj\Debug\netcoreapp3.1\Razor\Views\CreateFood\CreateFood.cshtml.g.cs
+C:\Buket\Example\Buket\Diabetes\DiabetesControl\bin\Debug\netcoreapp3.1\DiabetesControl.DataAccess.dll
+C:\Buket\Example\Buket\Diabetes\DiabetesControl\bin\Debug\netcoreapp3.1\DiabetesControl.DataAccess.pdb
+C:\Buket\Example\Buket\Diabetes\DiabetesControl\obj\Debug\netcoreapp3.1\Razor\Views\CHCalculate\Index.cshtml.g.cs
+C:\Buket\Example\Buket\Diabetes\DiabetesControl\obj\Debug\netcoreapp3.1\Razor\Views\CHCalculate\CHCalculate.cshtml.g.cs

@@ -16,3 +16,8 @@ C:\Buket\Example\Buket\Diabetes\DiabetesControl.DataAccess\obj\Debug\netcoreapp3
 C:\Buket\Example\Buket\Diabetes\DiabetesControl.DataAccess\obj\Debug\netcoreapp3.1\DiabetesControl.DataAccess.csproj.CoreCompileInputs.cache
 C:\Buket\Example\Buket\Diabetes\DiabetesControl.DataAccess\obj\Debug\netcoreapp3.1\DiabetesControl.DataAccess.dll
 C:\Buket\Example\Buket\Diabetes\DiabetesControl.DataAccess\obj\Debug\netcoreapp3.1\DiabetesControl.DataAccess.pdb
+C:\Buket\Example\Buket\Diabetes\DiabetesControl.DataAccess\bin\Debug\netcoreapp3.1\DiabetesControl.Data.dll
+C:\Buket\Example\Buket\Diabetes\DiabetesControl.DataAccess\bin\Debug\netcoreapp3.1\DiabetesControl.Utils.dll
+C:\Buket\Example\Buket\Diabetes\DiabetesControl.DataAccess\bin\Debug\netcoreapp3.1\DiabetesControl.Data.pdb
+C:\Buket\Example\Buket\Diabetes\DiabetesControl.DataAccess\bin\Debug\netcoreapp3.1\DiabetesControl.Utils.pdb
+C:\Buket\Example\Buket\Diabetes\DiabetesControl.DataAccess\obj\Debug\netcoreapp3.1\DiabetesControl.DataAccess.csproj.CopyComplete

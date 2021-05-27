@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "T/krboTPbfalqTBhmQnRFNFT1JgDjeLwHJee2qta5fpBaFzBkinTPVnYBjryCQIDed1EHxUNqse4y3vNZ3vmGw==",
+  "dgSpecHash": "GnacVtwtf9UPeStezi4KR7eZjKbplbukKEAAvNTX+J1cIf0NdsJwNmZPWAwJXhqIbFSd8wVGnR+/W8p26FY42Q==",
   "success": true,
   "projectFilePath": "C:\\Buket\\Example\\Buket\\Diabetes\\DiabetesControl.Utils\\DiabetesControl.Utils.csproj",
   "expectedPackageFiles": [
@@ -39,12 +39,5 @@
     "C:\\Users\\Buket Burcu Mercan\\.nuget\\packages\\system.threading.tasks\\4.0.11\\system.threading.tasks.4.0.11.nupkg.sha512",
     "C:\\Users\\Buket Burcu Mercan\\.nuget\\packages\\system.threading.timer\\4.0.1\\system.threading.timer.4.0.1.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Buket\\Example\\Buket\\Diabetes\\DiabetesControl.Utils\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

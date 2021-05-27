@@ -1,0 +1,22 @@
+﻿@using DiabetesControl.Data.Models
+@model Food
+@{
+    ViewData["Title"] = "Karbonhidrat Hesaplama";
+}
+
+<h3>Food Create</h3>
+<div>
+    <form method="post" asp-action="Create">
+        <div>
+            Besin Adı:
+            @Html.TextBoxFor(x => x.Name)
+        </div>
+        <div>
+            Hesaplanacak Besinler
+            @Html.TextBoxFor(x => x.Name)
+        </div>
+        <div>
+            <input type="submit" value="Hesapla" class="btn btn-default" />
+        </div>
+    </form>
+</div>

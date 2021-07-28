@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace DiabetesControl.Data.Migrations
 {
-    public partial class diabetes : Migration
+    public partial class diabetesInit : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -19,24 +19,6 @@ namespace DiabetesControl.Data.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_NutritionalMeasures", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "NutritiveGroups",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
-                    MilkGroup = table.Column<string>(type: "longtext CHARACTER SET utf8mb4", nullable: true),
-                    MeatGroup = table.Column<string>(type: "longtext CHARACTER SET utf8mb4", nullable: true),
-                    BreadGroup = table.Column<string>(type: "longtext CHARACTER SET utf8mb4", nullable: true),
-                    FatGroup = table.Column<string>(type: "longtext CHARACTER SET utf8mb4", nullable: true),
-                    FruitGroup = table.Column<string>(type: "longtext CHARACTER SET utf8mb4", nullable: true),
-                    EatGroup = table.Column<string>(type: "longtext CHARACTER SET utf8mb4", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_NutritiveGroups", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -61,7 +43,7 @@ namespace DiabetesControl.Data.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
                     Name = table.Column<string>(type: "longtext CHARACTER SET utf8mb4", nullable: true),
-                    NutritiveGroupId = table.Column<int>(type: "int", nullable: false),
+                    NutritiveGroup = table.Column<int>(type: "int", nullable: false),
                     NutritiveValueId = table.Column<int>(type: "int", nullable: false),
                     NutritionalMeasureId = table.Column<int>(type: "int", nullable: false)
                 },
@@ -72,12 +54,6 @@ namespace DiabetesControl.Data.Migrations
                         name: "FK_Foods_NutritionalMeasures_NutritionalMeasureId",
                         column: x => x.NutritionalMeasureId,
                         principalTable: "NutritionalMeasures",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_Foods_NutritiveGroups_NutritiveGroupId",
-                        column: x => x.NutritiveGroupId,
-                        principalTable: "NutritiveGroups",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
@@ -95,11 +71,6 @@ namespace DiabetesControl.Data.Migrations
                 unique: true);
 
             migrationBuilder.CreateIndex(
-                name: "IX_Foods_NutritiveGroupId",
-                table: "Foods",
-                column: "NutritiveGroupId");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_Foods_NutritiveValueId",
                 table: "Foods",
                 column: "NutritiveValueId",
@@ -113,9 +84,6 @@ namespace DiabetesControl.Data.Migrations
 
             migrationBuilder.DropTable(
                 name: "NutritionalMeasures");
-
-            migrationBuilder.DropTable(
-                name: "NutritiveGroups");
 
             migrationBuilder.DropTable(
                 name: "NutritiveValue");

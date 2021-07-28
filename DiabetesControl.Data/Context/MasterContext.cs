@@ -34,7 +34,6 @@ namespace DiabetesControl.Data.Context
         }
 
         DbSet<Food> Foods { get; set; }
-        DbSet<NutritiveGroup> NutritiveGroups { get; set; }
         DbSet<NutritionalMeasure> NutritionalMeasures { get; set; }
         DbSet<NutritiveValue> NutritiveValue { get; set; }
     }

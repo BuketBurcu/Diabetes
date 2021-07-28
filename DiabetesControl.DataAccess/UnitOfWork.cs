@@ -1,4 +1,5 @@
 ﻿using DiabetesControl.Data.Context;
+using DiabetesControl.Utils.Logger;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
 using System;
@@ -80,8 +81,9 @@ namespace DiabetesControl.DataAccess
                 result = DbContext.SaveChanges();
                 return result;
             }
-            catch (Exception)
+            catch (Exception e)
             {
+                ElasticLogger.Instance.Error(e, e.Message);
                 return -1;
             }
         }

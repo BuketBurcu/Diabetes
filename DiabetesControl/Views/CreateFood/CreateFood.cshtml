@@ -1,4 +1,5 @@
 ﻿@using DiabetesControl.Data.Models
+@using DiabetesControl.Data.Enums
 @model Food
 @{
     ViewData["Title"] = "Create Food";
@@ -24,17 +25,17 @@
             @Html.TextBoxFor(x => x.NutritiveValue.CarbohdrateValue)
         </div>
         <div>
-            @*ToDo: This should be a ComboBox *@
-            @*Besin Grubu :
-            @Html.DropDownList("Besin Grubu", new List<SelectListItem>
-{
-      new SelectListItem { Text = "Süt", Value = "0", Selected=true},
-      new SelectListItem { Text = "Et", Value = "1"},
-      new SelectListItem { Text = "Ekmek", Value = "2"},
-      new SelectListItem { Text = "Yağ", Value = "3"},
-      new SelectListItem { Text = "Meyve", Value = "4"},
-      new SelectListItem { Text = "Yemek", Value = "5"}
-}, "Select Department")*@
+            Protein (g) :
+            @Html.TextBoxFor(x => x.NutritiveValue.ProteinValue)
+        </div>
+        <div>
+            Yağ (g) :
+            @Html.TextBoxFor(x => x.NutritiveValue.FatValue)
+        </div>
+        <div>
+            Besin Grubu :
+            @Html.DropDownListFor(m => m.NutritiveGroup,
+            new SelectList(Enum.GetValues(typeof(NutritiveGroupEnum))))
         </div>
         <div>
             <input type="submit" value="Kaydet" class="btn btn-default" />

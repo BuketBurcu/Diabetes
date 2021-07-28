@@ -1,4 +1,5 @@
-﻿using DiabetesControl.Data.Models;
+﻿using DiabetesControl.Data.Enums;
+using DiabetesControl.Data.Models;
 using DiabetesControl.DataAccess;
 using Microsoft.AspNetCore.Mvc;
 using System;

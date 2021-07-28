@@ -1,0 +1,12 @@
+apiVersion : v1
+kind: Service
+metadata:
+  name: diabetesservice
+  labels:
+    run: diabetes
+spec:
+  ports:
+  - port: 80
+    protocol: TCP
+  selector:
+    run: diabetes

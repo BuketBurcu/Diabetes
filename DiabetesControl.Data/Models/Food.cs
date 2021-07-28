@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DiabetesControl.Data.Enums;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -13,15 +14,13 @@ namespace DiabetesControl.Data.Models
         public int Id { get; set; }
         public string Name { get; set; }
         [Required]
-        [ForeignKey("NutritiveGroupId")]
-        public int NutritiveGroupId { get; set; }
+        public NutritiveGroupEnum NutritiveGroup { get; set; }
         [Required]
         [ForeignKey("NutritiveValueId")]
         public int NutritiveValueId { get; set; }
         [Required]
         [ForeignKey("NutritionalMeasureId")]
         public int NutritionalMeasureId { get; set; }
-        public NutritiveGroup NutritiveGroup { get; set; }
         public NutritionalMeasure NutritionalMeasure { get; set; }
         public NutritiveValue NutritiveValue { get; set; }
     }

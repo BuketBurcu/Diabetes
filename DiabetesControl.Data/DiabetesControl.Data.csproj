@@ -17,4 +17,8 @@
     <ProjectReference Include="..\DiabetesControl.Utils\DiabetesControl.Utils.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
 </Project>

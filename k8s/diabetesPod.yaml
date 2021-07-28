@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: diabetes
+  labels:
+    name: diabetes
+spec:
+  containers:
+  - name: diabetes
+    image: buketbm/diabetes
+    imagePullPolicy: IfNotPresent

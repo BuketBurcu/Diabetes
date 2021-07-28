@@ -8,8 +8,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DiabetesControl.Data.Migrations
 {
     [DbContext(typeof(MasterContext))]
-    [Migration("20210424144553_diabetes2")]
-    partial class diabetes2
+    [Migration("20210728075808_diabetes-Init")]
+    partial class diabetesInit
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -30,7 +30,7 @@ namespace DiabetesControl.Data.Migrations
                     b.Property<int>("NutritionalMeasureId")
                         .HasColumnType("int");
 
-                    b.Property<int>("NutritiveGroupId")
+                    b.Property<int>("NutritiveGroup")
                         .HasColumnType("int");
 
                     b.Property<int>("NutritiveValueId")
@@ -40,8 +40,6 @@ namespace DiabetesControl.Data.Migrations
 
                     b.HasIndex("NutritionalMeasureId")
                         .IsUnique();
-
-                    b.HasIndex("NutritiveGroupId");
 
                     b.HasIndex("NutritiveValueId")
                         .IsUnique();
@@ -64,20 +62,6 @@ namespace DiabetesControl.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("NutritionalMeasures");
-                });
-
-            modelBuilder.Entity("DiabetesControl.Data.Models.NutritiveGroup", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    b.Property<int>("NutritiveGroupName")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("NutritiveGroups");
                 });
 
             modelBuilder.Entity("DiabetesControl.Data.Models.NutritiveValue", b =>
@@ -108,12 +92,6 @@ namespace DiabetesControl.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("DiabetesControl.Data.Models.NutritiveGroup", "NutritiveGroup")
-                        .WithMany("Foods")
-                        .HasForeignKey("NutritiveGroupId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("DiabetesControl.Data.Models.NutritiveValue", "NutritiveValue")
                         .WithOne("Foods")
                         .HasForeignKey("DiabetesControl.Data.Models.Food", "NutritiveValueId")
@@ -122,17 +100,10 @@ namespace DiabetesControl.Data.Migrations
 
                     b.Navigation("NutritionalMeasure");
 
-                    b.Navigation("NutritiveGroup");
-
                     b.Navigation("NutritiveValue");
                 });
 
             modelBuilder.Entity("DiabetesControl.Data.Models.NutritionalMeasure", b =>
-                {
-                    b.Navigation("Foods");
-                });
-
-            modelBuilder.Entity("DiabetesControl.Data.Models.NutritiveGroup", b =>
                 {
                     b.Navigation("Foods");
                 });

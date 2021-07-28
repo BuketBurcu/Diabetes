@@ -1,0 +1,17 @@
+apiVersion: v2
+appVersion: 1.16.0
+dependencies:
+- alias: elasticsearch
+  condition: elasticsearch.enabled
+  name: elasticsearch
+  repository: https://helm.elastic.co/
+  version: 7.1.1
+- alias: kibana
+  condition: kibana.enabled
+  name: kibana
+  repository: https://helm.elastic.co/
+  version: 7.1.1
+description: Diabetes Helm chart for Kubernetes
+name: diabetes
+type: application
+version: 0.0.1

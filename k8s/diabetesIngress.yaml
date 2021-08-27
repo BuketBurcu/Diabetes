@@ -1,0 +1,22 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: diabetesingress
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+spec:
+  tls:
+  - hosts:
+      - buketdiabetes.com
+    secretName: testsecret-tls
+  rules:
+  - host: buketdiabetes.com
+    http:
+      paths:
+      - path: /CreateFood/Create
+        pathType: Prefix
+        backend:
+          service:
+            name: diabetesservice
+            port:
+              number: 8080

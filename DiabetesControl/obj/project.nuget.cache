@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "skqSQLbv2G2UnKFR38z8tJJNIaXIVgAXfWVbGiP7eoHdz1cXHr7xUUMVBpXylO+AZmJll1l7RqmAyLmUZq8NEQ==",
+  "dgSpecHash": "ZcPOXlCi+ItpGYO2xL8bwJkfO+P5MIHQfTIe3kD6YdR5tbzwZTLiXYDa5pMxZ0q0ZLM3U6HcZ3WvGMdDtJIQ9Q==",
   "success": true,
   "projectFilePath": "C:\\Buket\\Example\\Buket\\Diabetes\\DiabetesControl\\DiabetesControl.csproj",
   "expectedPackageFiles": [
@@ -35,10 +35,10 @@
     "C:\\Users\\Buket Burcu Mercan\\.nuget\\packages\\serilog.sinks.elasticsearch\\8.4.1\\serilog.sinks.elasticsearch.8.4.1.nupkg.sha512",
     "C:\\Users\\Buket Burcu Mercan\\.nuget\\packages\\serilog.sinks.file\\4.0.0\\serilog.sinks.file.4.0.0.nupkg.sha512",
     "C:\\Users\\Buket Burcu Mercan\\.nuget\\packages\\serilog.sinks.periodicbatching\\2.1.1\\serilog.sinks.periodicbatching.2.1.1.nupkg.sha512",
-    "C:\\Users\\Buket Burcu Mercan\\.nuget\\packages\\swashbuckle.aspnetcore\\6.0.2\\swashbuckle.aspnetcore.6.0.2.nupkg.sha512",
-    "C:\\Users\\Buket Burcu Mercan\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.0.2\\swashbuckle.aspnetcore.swagger.6.0.2.nupkg.sha512",
-    "C:\\Users\\Buket Burcu Mercan\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.0.2\\swashbuckle.aspnetcore.swaggergen.6.0.2.nupkg.sha512",
-    "C:\\Users\\Buket Burcu Mercan\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.0.2\\swashbuckle.aspnetcore.swaggerui.6.0.2.nupkg.sha512",
+    "C:\\Users\\Buket Burcu Mercan\\.nuget\\packages\\swashbuckle.aspnetcore\\6.1.5\\swashbuckle.aspnetcore.6.1.5.nupkg.sha512",
+    "C:\\Users\\Buket Burcu Mercan\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.1.5\\swashbuckle.aspnetcore.swagger.6.1.5.nupkg.sha512",
+    "C:\\Users\\Buket Burcu Mercan\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.1.5\\swashbuckle.aspnetcore.swaggergen.6.1.5.nupkg.sha512",
+    "C:\\Users\\Buket Burcu Mercan\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.1.5\\swashbuckle.aspnetcore.swaggerui.6.1.5.nupkg.sha512",
     "C:\\Users\\Buket Burcu Mercan\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\Buket Burcu Mercan\\.nuget\\packages\\system.collections\\4.0.11\\system.collections.4.0.11.nupkg.sha512",
     "C:\\Users\\Buket Burcu Mercan\\.nuget\\packages\\system.collections.concurrent\\4.0.12\\system.collections.concurrent.4.0.12.nupkg.sha512",

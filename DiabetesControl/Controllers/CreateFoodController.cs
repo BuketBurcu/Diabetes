@@ -9,19 +9,23 @@ using System.Threading.Tasks;
 
 namespace DiabetesControl.Controllers
 {
+    [Route("CreateFood")]
     public class CreateFoodController : Controller
     {
+        [HttpGet]
         public IActionResult Index()
         {
             return View();
         }
-        public IActionResult CreateFood(Food food)
+
+        [HttpGet("CreateFood")]
+        public IActionResult CreateFood([FromBody] Food food)
         {
             return View();
         }
 
         [HttpPost, ActionName("Create")]
-        public IActionResult Create(Food food)
+        public IActionResult Create([FromBody] Food food)
         {
             using (UnitOfWork uow = new UnitOfWork())
             {

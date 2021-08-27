@@ -29,7 +29,6 @@ elasticsearch:
     resources:
       requests:
         storage: 8Gi
-
 kibana:
   enabled: false
   elasticsearchHosts: "http://diabetes-elasticsearch-master:9200"

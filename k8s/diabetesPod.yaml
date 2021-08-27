@@ -1,9 +1,10 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: diabetes
+  name: diabetespod
   labels:
     name: diabetes
+    app: diabetes
 spec:
   containers:
   - name: diabetes
